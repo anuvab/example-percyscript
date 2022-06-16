@@ -1,6 +1,7 @@
+console.log('step 0');
 const PercyScript = require('@percy/script');
 const httpServer = require('http-server');
-
+console.log('step 1');
 const PORT = process.env.PORT_NUMBER || 8000;
 const TEST_URL = `http://localhost:${PORT}`;
 
